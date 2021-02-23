@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UsersFragment">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_cp"
+            android:src="@drawable/ic_baseline_image_24"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="First Name"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape"
+        android:id="@+id/et_name_cp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Last Name"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape"
+        android:id="@+id/lastname"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Date of birth"
+        android:background="@drawable/shape"
+        android:id="@+id/dob"
+        android:paddingLeft="10dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Gender"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape"
+        android:id="@+id/gender"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Country"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape"
+        android:id="@+id/country"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="State"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape"
+        android:id="@+id/state"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Home Town"
+        android:background="@drawable/shape"
+        android:id="@+id/hometown"
+        android:paddingLeft="10dp"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Phone Number"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:background="@drawable/shape"
+        android:id="@+id/phonenumber"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Telephone Number"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:background="@drawable/shape"
+        android:id="@+id/telephonenumber"
+        android:layout_margin="4dp"
+        android:drawablePadding="7dp"
+        android:bottomRightRadius="12dp"
+        android:bottomLeftRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
+
+        android:textColor="@android:color/black"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="ADD USER"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:background="#24A0ED"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_cp"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:id="@+id/progressbar_cp"/>
+
+</LinearLayout>
+</ScrollView>

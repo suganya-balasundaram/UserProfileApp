@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:paddingBottom="@dimen/row_padding"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/row_padding">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/ivImage"
+        android:text="Author Name"
+        android:textColor="#24A0ED"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/ivImage"
+        android:text="female" />
+    <View
+        android:layout_width="2dp"
+        android:layout_height="10dp"
+        android:background="#C0C0C0"
+
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+
+
+        android:layout_toEndOf="@+id/gender"
+       />
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="10dp"
+
+
+        android:layout_toEndOf="@+id/gender"
+        android:text="Trichy" />
+
+
+    <ImageButton
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:gravity="end"
+        android:src="@drawable/ic_baseline_delete_24" />
+
+</RelativeLayout>
